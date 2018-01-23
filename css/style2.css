@@ -15,12 +15,17 @@ body{
   font-family: serif;
   text-align: center;
 }
-#pslo{
+
+/*
+Both below are cool because we are modifying pslo and not h2
+ */
+.pslo{
   font-style: italic;
 }
-#pslo>h2{
-  font-style: normal;
-}
+
+/*
+Both below are cool because we hid the markers of the ul while maintaining function
+ */
 #faculty{
   text-align: center;
 }
@@ -29,12 +34,20 @@ body{
   margin: 0;
   padding: 0;
 }
+
+/*
+Both below are cool because we are reverting the h2 within courses back to normal while still modifying the courses
+ */
 #courses{
   font-style: italic;
 }
 #courses>h2{
   font-style: normal;
 }
+
+/*
+This is cool because it lets us have a horizontal list
+ */
 #faculty>#faculty-list>li{
   display: inline-block;
 }
