@@ -22,6 +22,6 @@ body{
   font-style: normal;
 }
 #faculty-list{
-  display: inline;
-  align-items: center;
+  display: inline-table;
+  justify-content: center;
 }
