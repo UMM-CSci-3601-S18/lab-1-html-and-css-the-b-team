@@ -12,7 +12,7 @@ body{
     background-color: #01a337;
 }
 #main-title{
-  font-size: larger;
+  font-size: xx-large;
   font-family: serif;
   text-align: center;
 }
@@ -37,5 +37,5 @@ body{
   font-style: normal;
 }
 #faculty>#faculty-list>li{
-  display: inline;
+  display: inline-block;
 }
