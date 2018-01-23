@@ -23,4 +23,5 @@ body{
 }
 #faculty-list{
   display: inline;
+  align-content: center;
 }
