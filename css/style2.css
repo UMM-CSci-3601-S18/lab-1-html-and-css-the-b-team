@@ -19,3 +19,6 @@ body{
 #style ol{
   font-style: oblique;
 }
+#pslo{
+  font-style: inherit;
+}
