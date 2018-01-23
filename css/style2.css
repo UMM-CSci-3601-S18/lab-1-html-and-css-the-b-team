@@ -9,7 +9,7 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #04913c;
+    background-color: #01a337;
 }
 #main-title{
   font-family: serif;
@@ -20,4 +20,7 @@ body{
 }
 #pslo>h2{
   font-style: normal;
+}
+#faculty-list{
+  display: inline;
 }
