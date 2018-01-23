@@ -11,6 +11,10 @@ body{
     padding: 30px;
     background-color: #01a337;
 }
+
+/*
+Below is cool because we forced text to be serif
+ */
 #main-title{
   font-family: serif;
   text-align: center;
