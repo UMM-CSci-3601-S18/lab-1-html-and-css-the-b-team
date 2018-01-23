@@ -32,3 +32,6 @@ body{
 #courses{
   font-style: italic;
 }
+#courses>h2{
+  font-style: normal;
+}
