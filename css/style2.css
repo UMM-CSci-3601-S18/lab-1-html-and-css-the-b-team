@@ -12,6 +12,7 @@ body{
     background-color: #01a337;
 }
 #main-title{
+  font-size: larger;
   font-family: serif;
   text-align: center;
 }
