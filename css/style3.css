@@ -19,8 +19,16 @@ body{
 h2{
   text-align: center;
 }
+#faculty>ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 #main-title{
   text-align: center;
   background-color: firebrick;
-  color: #aaaaaa;
+  color: aliceblue;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
