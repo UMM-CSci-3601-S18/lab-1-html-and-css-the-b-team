@@ -11,3 +11,7 @@ body{
     padding: 30px;
     background-color: #aaaaaa;
 }
+.section{
+  background-color: aliceblue; /*change this later */
+  border-radius: 5%;
+}
