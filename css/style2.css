@@ -13,7 +13,7 @@ body{
 }
 
 /*
-Below is cool because we forced text to be serif
+Below is cool because we forced text to be serif using the id
  */
 #main-title{
   font-family: serif;
@@ -21,14 +21,14 @@ Below is cool because we forced text to be serif
 }
 
 /*
-Both below are cool because we are modifying pslo and not h2
+Both below are cool because we are modifying pslo and not h2 with class
  */
 .pslo{
   font-style: italic;
 }
 
 /*
-Both below are cool because we hid the markers of the ul while maintaining function
+Both below are cool because we hid the markers of the ul while maintaining function with the respective ids.
  */
 #faculty{
   text-align: center;
@@ -45,6 +45,7 @@ img.pic{
 }
 /*
 Both below are cool because we are reverting the h2 within courses back to normal while still modifying the courses
+with the concepts of id and grouping.
  */
 #courses{
   font-style: italic;
@@ -54,7 +55,7 @@ Both below are cool because we are reverting the h2 within courses back to norma
 }
 
 /*
-This is cool because it lets us have a horizontal list
+This is cool because it lets us have a horizontal list using the group of li in the faculty list id
  */
 #faculty>#faculty-list>li{
   display: inline-block;
