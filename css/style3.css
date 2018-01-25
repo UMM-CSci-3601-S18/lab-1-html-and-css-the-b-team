@@ -6,6 +6,11 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
+
+/*
+Filled background of main title using negative margins
+also centered text
+ */
 #main-title{
   text-align: center;
   background-color: firebrick;
@@ -20,6 +25,10 @@ body{
     padding: 30px;
     background-color: #aaaaaa;
 }
+
+/*
+Rounded corners of border boxes
+ */
 .section{
   background-color: aliceblue;
   border-radius: 15%;
@@ -29,15 +38,29 @@ body{
 h2{
   text-align: center;
 }
+
+/*
+Center text and images of faculty list
+*/
 #faculty>ul{
   list-style-type: none;
   text-align: center;
   margin: 0;
   padding: 0;
 }
+
+/*
+Added borders to faculty pictures and larger margins between
+ */
 img.pic{
   border: 4px solid #000000;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+/*
+Faculty list displayed in a row
+ */
 #faculty>#faculty-list>li{
   display: inline-block;
 }
