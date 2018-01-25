@@ -6,7 +6,16 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
-
+#main-title{
+  text-align: center;
+  background-color: firebrick;
+  color: aliceblue;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: -40px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
 body{
     padding: 30px;
     background-color: #aaaaaa;
@@ -15,6 +24,7 @@ body{
   background-color: aliceblue;
   border-radius: 15%;
   border: 2px solid #000000;
+  padding-bottom: 50px;
 }
 h2{
   text-align: center;
@@ -28,7 +38,9 @@ h2{
 img.pic{
   border: 4px solid #000000;
 }
-
+#faculty>#faculty-list>li{
+  display: inline-block;
+}
 /*
 Our attempt to make 2x2 faculty pics w/o modifying html
 Did not work
@@ -49,11 +61,3 @@ Did not work
   margin: 10px;
 }
 */
-
-#main-title{
-  text-align: center;
-  background-color: firebrick;
-  color: aliceblue;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
