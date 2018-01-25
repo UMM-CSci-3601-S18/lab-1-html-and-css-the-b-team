@@ -7,9 +7,14 @@ use float to make something locate itself on the right or left
 
 */
 
+/*
+background
+https://www.freecreatives.com/backgrounds/website-background.html
+ */
+
 body{
     padding: 30px;
-    background-color: #01a337;
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Beautiful-Plain-Website-Background.jpg");
 }
 
 /*
