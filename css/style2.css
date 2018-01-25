@@ -39,6 +39,10 @@ Both below are cool because we hid the markers of the ul while maintaining funct
   padding: 0;
 }
 
+
+img.pic{
+  border: 4px solid #000000;
+}
 /*
 Both below are cool because we are reverting the h2 within courses back to normal while still modifying the courses
  */
